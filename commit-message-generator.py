@@ -9,8 +9,7 @@ from vertexai.generative_models import (
 
 class CommitMessage:
     def __init__(self):
-        vertexai.init(project="genai-hackathon-432810",
-                      location="us-central1")
+        vertexai.init(project="genai-hackathon-432810", location="us-central1")
 
     def generate_content(self, prompt_query: str):
         model = GenerativeModel("gemini-1.5-flash-001")
@@ -30,8 +29,7 @@ class CommitMessage:
         return self.generate_content(prompt_query)
 
 
-if __name__ == "__main__" :
+if __name__ == "__main__":
     commit_message_gen_ai = CommitMessage();
     commit_message = commit_message_gen_ai.generate_commit_message();
     print(commit_message)
-
