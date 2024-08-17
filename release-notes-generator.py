@@ -31,5 +31,5 @@ class ReleaseNotes:
 
 if __name__ == "__main__":
     release_notes_gen_ai = ReleaseNotes();
-    release_notes = release_notes_gen_ai.generate_release_notes("main", "feature/calculator-features");
+    release_notes = release_notes_gen_ai.generate_release_notes("main", "calculator-features");
     print(release_notes)

@@ -1,3 +1,4 @@
+
 This is a simple GenAI application built to generate AI powered code commit messages and relese notes.
 
 Here , Gemini model is used to serve the purpose. 
@@ -17,3 +18,4 @@ This release adds new functionality to the calculator application:
 **Division:** Added a `divide` function that takes two integers as input and returns their quotient.
 
 These new features provide users with a more comprehensive set of mathematical operations available within the calculator. 
+
